@@ -1,0 +1,30 @@
+.hamburger {
+  @apply relative cursor-pointer w-6 h-[16px] justify-between transform transition-all duration-[0.25s] ease-in-out;
+}
+.opened .hamburger {
+  @apply -translate-y-1.5 rotate-90;
+}
+.hamburger-top {
+  @apply absolute top-0 w-6 h-0.5 bg-black transform transition-transform duration-500 ease-in-out;
+}
+.opened .hamburger-top {
+  @apply rotate-45 translate-y-[7.3px] translate-x-[7.3px];
+}
+.hamburger-middle {
+  @apply absolute top-[7px] w-6 h-0.5 bg-black transition-all duration-500;
+}
+.opened .hamburger-middle {
+  @apply hidden;
+}
+.hamburger-bottom {
+  @apply absolute  top-[14px] w-6 h-0.5 bg-black transition-transform duration-500 transform ease-in-out;
+}
+.opened .hamburger-bottom {
+  @apply -rotate-45 translate-x-[7.3px] translate-y-[-7.3px];
+}
+.opened .navigation {
+  @apply transform  translate-x-0 opacity-100;
+}
+.opened .overlay {
+  @apply opacity-80 blur-xl z-10 bg-indigo-200;
+}
