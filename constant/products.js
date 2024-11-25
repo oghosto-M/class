@@ -157,4 +157,5 @@ const products = [
       image: "../constant/product-images/image14.jpg",
     },
   ];
-  
+
+export {products}
