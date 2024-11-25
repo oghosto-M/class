@@ -1,0 +1,41 @@
+.Card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 200px;
+    text-align: left;
+    padding: 5px;
+}
+
+.Card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.Card h3 {
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+.Course_teacher {
+    color: gray;
+}
+
+.Card p {
+    font-size: 9px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.original_price {
+    padding-left: 10px;
+    text-decoration: line-through;
+    color: #888;
+}
+
+.Card button {
+    border: none;
+    padding: 5px;
+    background-color: #eceb98;
+}
