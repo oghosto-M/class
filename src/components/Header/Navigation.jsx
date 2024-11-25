@@ -1,4 +1,3 @@
-import React, { useEffect } from "react";
 import "./navigation.css";
 import Hamburger from "./Hamburger";
 const Navigation = ({ toggleMenu }) => {
