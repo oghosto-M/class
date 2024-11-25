@@ -1,5 +1,3 @@
-import React from "react";
-
 const Hamburger = ({ toggleMenu }) => {
   return (
     <div className="md:hidden">
