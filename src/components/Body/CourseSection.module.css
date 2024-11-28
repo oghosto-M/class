@@ -1,0 +1,34 @@
+
+.Course_section {
+    text-align: center;
+    padding: 20px;
+}
+
+.Course_section h2 {
+    margin-bottom: 25px;
+    text-align: left;
+    color: rgb(45, 44, 44);
+}
+
+.Course_cards {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+
+@media (max-width: 480px) {
+    .Course_cards {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+  }
+
+@media (min-width: 481px) and (max-width: 880px) {
+    .Course_cards {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+    }
+}

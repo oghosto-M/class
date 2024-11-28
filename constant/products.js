@@ -158,3 +158,4 @@ const products = [
     },
   ];
   
+  export {products}
